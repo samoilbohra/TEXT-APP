@@ -44,7 +44,7 @@ function App() {
         <Navbars mode={mode} toggle={toggleMode} />
         <Alert alert={alert} />
         <Routes>
-        <Route path="/" element={<div className='container'><Textform heading='SAMOIL BOHRA' mode= {mode} showAlert= {showAlert}/> </div>} />
+        <Route path="/TEXT-APP" element={<div className='container'><Textform heading='SAMOIL BOHRA' mode= {mode} showAlert= {showAlert}/> </div>} />
         <Route path="about" element={ <About mode= {mode} /> } />
         {/* <Route path="contact" element={ <Contact/> } /> */}
         </Routes>
