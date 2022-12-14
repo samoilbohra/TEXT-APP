@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 import About from './components/about';
 import Navbars from './components/navbar'
@@ -22,7 +22,7 @@ function App() {
     }, 1000);
   }
   const toggleMode = () => {
-    if (mode == 'dark') {
+    if (mode === 'dark') {
       setMode('light');
       document.body.style.backgroundColor = 'white'
       showAlert('success', 'light mode enabled');
